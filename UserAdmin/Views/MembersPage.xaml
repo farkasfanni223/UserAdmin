@@ -1,0 +1,61 @@
+﻿<Page x:Class="UserAdmin.Views.MembersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UserAdmin.Views"
+      mc:Ignorable="d" 
+      Background="{StaticResource AccentBrush}"
+      Title="Tagok listája">
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="White" CornerRadius="10" Padding="4" Margin="0,0,0,16">
+            <Grid>
+                <Menu Background="Transparent" HorizontalAlignment="Left">
+                    <MenuItem x:Name="ContactMenuItem" Header="Kapcsolat" Click="ContactMenuItem_Click"/>
+                    <MenuItem x:Name="HelpMenuItem" Header="Súgó" Click="HelpMenuItem_Click"/>
+                </Menu>
+
+                <Button x:Name="Logout" Content="Kijelenetkezés" Style="{StaticResource LinkButton}" HorizontalAlignment="Right" Click="Logout_Click"/>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1" Margin="0,0,0,16">
+            <StackPanel>
+                <TextBlock Text="Regisztrált tagok" Style="{StaticResource TitleText}"/>
+                <TextBlock Text="Admin műveletek" Style="{StaticResource SubtitleText}"/>
+            </StackPanel>
+            <Button x:Name="AddButton" Content="+ Új tag" Style="{StaticResource PrimaryButton}" Width="120" HorizontalAlignment="Right"   Click="AddButton_Click" Height="30" VerticalAlignment="Center"/>
+        </Grid>
+
+        <!--Tagok táblázata-->
+        <Border Grid.Row="2" Style="{StaticResource CardBorder}" Padding="16">
+            <DataGrid x:Name="MembersGrid" IsReadOnly="True" SelectionMode="Single" SelectionUnit="FullRow">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Felhasználónév" Binding="{Binding Username}"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                    <DataGridTextColumn Header="Regisztráció ideje" Binding="{Binding RegisteredAt}"/>
+
+
+                    <DataGridTemplateColumn Header="Műveletek" Width="180">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:Name="EditButton" Content="Szerkesztés" Style="{StaticResource LinkButton}" Tag="{Binding}" Click="EditButton_Click"/>
+                                    <Button x:Name="DeleteButton" Content="Törlés" Style="{StaticResource LinkButton}" Foreground="{StaticResource ErrorBrush}" Tag="{Binding}" Click="DeleteButton_Click"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+    </Grid>
+</Page>

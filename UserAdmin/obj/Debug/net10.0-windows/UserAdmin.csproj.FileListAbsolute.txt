@@ -25,3 +25,10 @@ C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\o
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\UserAdmin.pdb
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\UserAdmin.genruntimeconfig.cache
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\ref\UserAdmin.dll
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.g.cs
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\App.baml
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.baml
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\LoginPage.g.cs
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\LoginPage.baml
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MembersPage.g.cs
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MembersPage.baml

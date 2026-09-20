@@ -1,0 +1,42 @@
+﻿<Page x:Class="UserAdmin.Views.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UserAdmin.Views"
+      mc:Ignorable="d" 
+      Background="{StaticResource AccentBrush}"
+      Title="Bejelentkezés">
+
+    <Grid>
+
+        <Border Style="{StaticResource CardBorder}" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+            <StackPanel>
+                <TextBlock Text="Üdvözlünk!" Style="{StaticResource TitleText}" HorizontalAlignment="Center"/>
+                <TextBlock Text="Jelentkezz be a folytatáshoz!" Style="{StaticResource SubtitleText}" HorizontalAlignment="Center" Margin="0,4,0,24"/>
+
+                <TextBlock Text="Email" FontSize="12" Foreground="{StaticResource MutedTextBrush}" Margin="0,0,0,4"/>
+                <TextBox x:Name="EmailBox"/>
+
+                <TextBlock Text="Jelszó" FontSize="12" Foreground="{StaticResource MutedTextBrush}" Margin="0,0,0,4"/>
+                <PasswordBox x:Name="PasswordBoxInput"/>
+
+                <TextBlock x:Name="ErrorText" Style="{StaticResource ErrorText}" Visibility="Collapsed" Margin="0,0,0,8"/>
+
+                <Button Content="Bejelentkezés" Style="{StaticResource PrimaryButton}" Margin="0,0,0,16" Click="LoginButton_Click"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <TextBlock Text="Nincs még fiókod?" Style="{StaticResource SubtitleText}" VerticalAlignment="Center"/>
+                    <Button Content="Regisztrálj!" Style="{StaticResource LinkButton}" Margin="6,0,0,0" x:Name="RegisterLink" Click="RegisterLink_Click" />
+
+                </StackPanel>
+
+            </StackPanel>
+            
+            
+        </Border>
+
+    </Grid>
+</Page>

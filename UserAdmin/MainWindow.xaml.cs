@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UserAdmin.Views;
 
 namespace UserAdmin
 {
@@ -18,7 +19,9 @@ namespace UserAdmin
     {
         public MainWindow()
         {
+
             InitializeComponent();
+            MainFrame.Navigate(new LoginPage());
             
         }
     }
