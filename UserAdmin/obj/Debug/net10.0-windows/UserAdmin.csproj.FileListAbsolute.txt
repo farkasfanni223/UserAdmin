@@ -32,3 +32,5 @@ C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\o
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\LoginPage.baml
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MembersPage.g.cs
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MembersPage.baml
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MemberEditPage.g.cs
+C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\MemberEditPage.baml

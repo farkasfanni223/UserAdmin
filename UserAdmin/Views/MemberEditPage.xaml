@@ -5,14 +5,14 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UserAdmin.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
       Title="Tag szerkesztése"
       Background="{StaticResource AccentBrush}">
 
-    <Grid>
+    <Grid Margin="24">
         <StackPanel>
             <TextBlock x:Name="HeaderText" Text="Új tag" Style="{StaticResource TitleText}" FontSize="20"
                        HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBox x:Name="IdBox" Visibility="Collapsed"/>
             <TextBlock Text="Felhasználónév" FontSize="12" Foreground="{StaticResource MutedTextBrush}"
                        Margin="0,0,0,4"/>
             <TextBox x:Name="UsernameBox"/>

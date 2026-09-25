@@ -20,6 +20,8 @@ namespace UserAdmin.Views
     /// </summary>
     public partial class MembersPage : Page
     {
+        private UserDbService _userDbService;
+
         public MembersPage()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace UserAdmin.Views
 
         private void ContactMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Kapcsolat:\nEmail:farkaszoltan28@gmail.com\nTelefon:+36703123884", "Kapcsolat", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Kapcsolat:\nEmail:farkasfanni223@gmail.com\nTelefon:+36704324327", "Kapcsolat", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void HelpMenuItem_Click(object sender, RoutedEventArgs e)
@@ -57,7 +59,7 @@ namespace UserAdmin.Views
                 Password = member.Password
             };
 
-            NavigationService.Navigate(new MemberEditPage(_userDbService, user));
+            NavigationService.Navigate(new MemberEditPage(_userDbService, null));
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)

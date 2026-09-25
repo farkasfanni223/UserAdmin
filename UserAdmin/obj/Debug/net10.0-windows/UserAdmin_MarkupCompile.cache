@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\farka\Desktop\fejlesztő-tesztelő\C# Console\WPF\UserAdmin\UserAdmin\App.xaml
-5-71969209
+6-499809440
 
-9-1262917417
+1061833495
 209-1627774256
-MainWindow.xaml;Themes\PurpleWhiteTheme.xaml;Views\LoginPage.xaml;Views\MembersPage.xaml;Views\RegisterPage.xaml;
+MainWindow.xaml;Themes\PurpleWhiteTheme.xaml;Views\LoginPage.xaml;Views\MemberEditPage.xaml;Views\MembersPage.xaml;Views\RegisterPage.xaml;
 
-True
+False
 
